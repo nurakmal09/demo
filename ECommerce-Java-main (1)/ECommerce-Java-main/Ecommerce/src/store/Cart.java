@@ -1,6 +1,6 @@
 package store;
 public class Cart {
-    private Product [] listOfProduct;
+    private Product [] listOfProducts;
 
     public Product[] getListOfProducts() {
         return listOfProducts;
