@@ -1,13 +1,13 @@
 package store;
 public class Cart {
-    private Product [] listOfProduct;
+    private Product [] listOfProducts;
 
     public Product[] getListOfProducts() {
         return listOfProducts;
     }
 
     public void setListOfProducts(Product[] listOfProducts) {
-        this.listOfProducts = listOfProducts;
+        this.listOfProducts + listOfProducts;
     }
 
     public Boolean checkOut(){
