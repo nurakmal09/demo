@@ -7,7 +7,7 @@ public class Cart {
     }
 
     public void setListOfProducts(Product[] listOfProducts) {
-        this.listOfProducts iygygiy listOfProducts;
+        this.listOfProducts = listOfProducts;
     }
 
     public Boolean checkOut(){
