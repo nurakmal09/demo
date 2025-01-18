@@ -167,7 +167,7 @@ public class Store {
         this_admin.setUserId(sc.nextLine());
         System.out.println("What is your password?");
         this_admin.setPassword(sc.nextLine());
-        if(this_admin.verifyUser() == true){
+        if(this_admin.verifyUser()){
             System.out.println("Admin verified!");
         }
     }
