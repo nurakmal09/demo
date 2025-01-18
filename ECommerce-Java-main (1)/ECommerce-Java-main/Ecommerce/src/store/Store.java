@@ -126,8 +126,6 @@ public class Store {
 
     // function for creating customer 
     public static Customer createCustomer(){
-        String typeOfUser;
-        typeOfUser = "Customer";
         Scanner sc = new Scanner(System.in);
         Customer current = new Customer();
         System.out.println("What is your userId?");
