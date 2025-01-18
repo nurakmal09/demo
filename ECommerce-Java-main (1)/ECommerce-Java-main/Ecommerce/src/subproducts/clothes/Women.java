@@ -28,20 +28,20 @@ public class Women extends Product implements Subproducts {
         return womenProducts;
     }
 
-    public void getListOfProducts(Product[] womenProducts) {
+    public void getListOfProducts(Product[] productList) {
         this.womenProducts = womenProducts;
     }
 
     public Women(){
         
     }
-    public Women(String productId, String cost, String productName, Seller seller, Product[] womenProducts) {
+    public Women(String productId, String cost, String productName, Seller seller, Product[] productList) {
         super(productId, cost, productName, seller);
-        this.womenProducts = womenProducts;
+        this.womenProducts = productList;
     }
 
-    public Women(Product[] womenProducts) {
-        this.womenProducts = womenProducts;
+    public Women(Product[] productList) {
+        this.womenProducts = productList;
     }
 
     @Override
