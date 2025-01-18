@@ -13,7 +13,24 @@ public class Customer extends User {
     public void setCart(Cart cart) {
         this.cart = cart;
     }
-   
+    public String getUserId() {
+        return userId;
+    }
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+    public String getPassword() {
+        return password;
+    }
+    public void setPassword(String password) {
+        this.password = password;
+    }
+    public void setContactNo(String contact){
+        this.contact = contact;
+    }
+    public String getContactNo(){
+        return contact;
+    }
     public Customer(Cart cart) {
         this.cart = cart;
     }
@@ -21,7 +38,9 @@ public class Customer extends User {
         super(userId, password, loginStatus);
         this.contact = contact;
     }
-
+    public Customer(String contact) {
+        this.contact = contact;
+    }
     public Customer(){
     }
 }
