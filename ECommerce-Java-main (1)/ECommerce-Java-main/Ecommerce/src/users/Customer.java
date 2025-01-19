@@ -1,6 +1,6 @@
 package users;
 import store.Cart;
-public class Customer extends User {
+public class Customer extends SystemUser {
     private Cart cart;
     private String contact;
     @Override

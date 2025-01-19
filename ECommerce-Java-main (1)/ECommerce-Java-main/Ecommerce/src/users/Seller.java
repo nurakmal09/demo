@@ -1,6 +1,6 @@
 package users;
 import store.Product;
-public class Seller extends User {
+public class Seller extends SystemUser {
     private Product [] productsListed;
     private Product [] updatedProductsListed;
     private String contact;
