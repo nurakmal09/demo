@@ -22,8 +22,8 @@ public class Customer extends User {
     public Customer(Cart cart) {
         this.cart = cart;
     }
-    public Customer(String userId, String password, String loginStatus, String contact) {
-        super(userId, password, loginStatus);
+    public Customer(String userId, String password, String contact) {
+        super(userId, password);
         this.contact = contact;
     }
     public Customer(String contact) {

@@ -29,8 +29,8 @@ public class Admin extends User {
         String contact = s.getContactNo();
         return contact;
     }
-    public Admin(String userId, String password, String loginStatus) {
-        super(userId, password, loginStatus);
+    public Admin(String userId, String password) {
+        super(userId, password);
     }
     public Admin(){
     }

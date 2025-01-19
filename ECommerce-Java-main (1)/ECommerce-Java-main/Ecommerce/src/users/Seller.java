@@ -51,8 +51,8 @@ public class Seller extends User {
     public void setUpdatedProductsListed(Product[] updatedProductsListed) {
         this.updatedProductsListed = updatedProductsListed;
     }
-    public Seller(String userId, String password, String loginStatus, String contact, Product[] productsListed,Product[] updatedProductsListed) {
-        super(userId, password, loginStatus);
+    public Seller(String userId, String password, String contact, Product[] productsListed,Product[] updatedProductsListed) {
+        super(userId, password);
         this.contact = contact;
         this.productsListed = productsListed;
         this.updatedProductsListed = updatedProductsListed;
