@@ -1,5 +1,5 @@
 package users;
-public class Admin extends User {
+public class Admin extends SystemUser {
 
     @Override
     public Boolean verifyUser() {

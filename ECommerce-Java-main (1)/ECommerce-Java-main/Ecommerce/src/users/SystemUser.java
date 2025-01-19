@@ -1,14 +1,14 @@
 package users;
-public abstract class User {
+public abstract class SystemUser {
     String userId = " ";
     String password = " ";
     
     abstract Boolean verifyUser();
-    public User(String userId, String password) {
+    public SystemUser(String userId, String password) {
         this.userId = userId;
         this.password = password;
         
     }
-    public User(){
+    public SystemUser(){
     }
 }
