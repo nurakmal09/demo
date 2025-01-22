@@ -12,3 +12,8 @@ public abstract class SystemUser {
     public SystemUser(){
     }
 }
+
+@Override
+public void initialize(URL url, ResourceBundle resourceBundle){
+    
+}
