@@ -14,6 +14,8 @@ public abstract class SystemUser {
 }
 
 @Override
+
+//function to verify user
 public void initialize(URL url, ResourceBundle resourceBundle){
-    
+
 }
